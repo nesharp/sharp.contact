@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sharp.contact",
-    "slug": "sharp.contact",
+    "name": "sharp-contact",
+    "slug": "sharp-contact",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.misha.nesteruk.sharpcontact"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.misha.nesteruk.sharpcontact"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "40bf5f1d-aef0-4bb2-8793-fd1e3df6722d"
+      }
     }
   }
 }
